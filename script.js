@@ -1,9 +1,9 @@
-const math = require("./math");
-const fruits = require("./Fruits");
+import {sum, mul, PI} from "./math.js"
+// const fruits = require("./Fruits");
 let n = 5;
 for (let i = 0; i < n; i++) {
     console.log("Hello", i);
 }
-console.log(math);
-console.log(math.sum(3, 3));
-console.log(fruits)
+console.log(PI);
+console.log(sum(3, 3));
+// console.log(fruits)
